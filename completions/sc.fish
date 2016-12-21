@@ -1,0 +1,6 @@
+complete -xc sc -a "status" -d "systemctl status; ..."
+complete -xc sc -a "show" -d "systemctl show; ..."
+complete -xc sc -a "enable" -d "sudo systemctl enable; ..."
+complete -xc sc -a "disable" -d "sudo systemctl disable; ..."
+complete -xc sc -a "restart" -d "sudo systemctl restart; ..."
+complete -xc sc -a "reload" -d "sudo systemctl reload; ..."
